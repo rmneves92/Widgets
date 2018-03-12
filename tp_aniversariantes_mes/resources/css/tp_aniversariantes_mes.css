@@ -1,0 +1,75 @@
+/* Coloque aqui seu codigo CSS */
+.tp_alerta_border {
+ 	border: 1px solid #941310;
+    -webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius:  15px;
+	-moz-border-radius-bottomright:     15px;
+	-moz-border-radius-bottomleft:      15px;
+	border-bottom-right-radius:         15px;
+	border-bottom-left-radius:          15px;
+}
+
+.tp_page_header {
+  margin-top: 0px !important;
+	background-color: #941310;
+	color: white;
+	padding-bottom:   10px !important;
+}
+
+.tp_page_header_icons {
+  padding-top: 5px !important;
+  margin: 0px !important;
+}
+
+.tp_button_veja_mais {
+	
+	color:            white   !important;
+
+    -webkit-border-top-right-radius:     0   !important;
+	-webkit-border-top-left-radius:      0   !important;
+    -webkit-border-bottom-right-radius: 13px !important;
+	-webkit-border-bottom-left-radius:  13px !important;
+
+	-moz-border-radius-topright:         0   !important;
+	-moz-border-radius-topleft:          0   !important;
+	-moz-border-radius-bottomright:     13px !important;
+	-moz-border-radius-bottomleft:      13px !important;
+
+    border-top-left-radius:              0   !important;
+    border-top-right-radius:             0   !important;
+    border-bottom-left-radius:          13px !important;
+    border-bottom-right-radius:         13px !important;
+}
+
+
+h2.tp_page_header {
+	background-color: #941310;
+	color:            white !important;
+	margin:           0px 0 0px !important;
+	padding-bottom:   10px;
+	padding-top:      10px;
+
+}
+
+.tp_page_header span {
+	color:            white;
+	padding-left:     10px;
+
+}
+
+.tp_list_group {
+    /*
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    */
+
+}
+
+.tp_list_group img {
+    padding-left:     10px;
+}
+
+#tp_titulo_aniversariantes{
+	padding-bottom: 0px!important;
+	font-size: 23px!important;
+}

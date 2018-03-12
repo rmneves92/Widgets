@@ -1,0 +1,101 @@
+/* Coloque aqui seu codigo CSS */
+
+@font-face {
+    font-family: SancoaleSoftenedRegularItal;
+    src: url("SancoaleSoftenedRegularItal.otf") format("opentype");
+    font-weight: bold!important;
+}
+
+.tp_alerta_border {
+ 	border: 1px solid;
+  -webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius:  15px;
+	-moz-border-radius-bottomright:     15px;
+	-moz-border-radius-bottomleft:      15px;
+	border-bottom-right-radius:         15px;
+	border-bottom-left-radius:          15px;
+	margin: 0px 10px 0px 10px !important;
+
+	
+}
+
+.tp_page_header {
+ 	margin-top: 0px !important;
+	color: white;
+	padding-bottom:   10px !important;
+  	font-family: SancoaleSoftenedRegularItal !important;
+  	font-weight: bold!important;
+}
+
+.tp_page_header_icons {
+	padding-top: 10px !important;
+	margin: 0px !important;
+	font-family: SancoaleSoftenedRegularItal  !important;
+	font-weight: bold!important;
+}
+
+.tp_button_veja_mais {
+	color: white !important;
+  	font-family: SancoaleSoftenedRegularItal  !important;
+  	font-size: 20px !important;
+
+  	-webkit-border-top-right-radius:     0   !important;
+	-webkit-border-top-left-radius:      0   !important;
+  	-webkit-border-bottom-right-radius: 13px !important;
+	-webkit-border-bottom-left-radius:  13px !important;
+
+	-moz-border-radius-topright:         0   !important;
+	-moz-border-radius-topleft:          0   !important;
+	-moz-border-radius-bottomright:     13px !important;
+	-moz-border-radius-bottomleft:      13px !important;
+
+    border-top-left-radius:              0   !important;
+	border-top-right-radius:             0   !important;
+	border-bottom-left-radius:          13px !important;
+	border-bottom-right-radius:         13px !important;
+	font-weight:                        bold !important;
+}
+
+
+h2.tp_page_header {
+	color:            white !important;
+	margin:           0px 0 0px !important;
+	padding-bottom:   10px;
+	padding-top:      10px;
+	font-weight: bold !important;
+}
+
+.tp_page_header span {
+	color:            white;
+	padding-left:     10px;
+
+}
+
+.tp_list_group {
+    /*
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    */
+
+}
+
+.tp_list_group img {
+    padding-left: 10px;
+}
+
+
+.fluig-style-guide .alert{
+	margin: 20px !important;
+}
+
+.modal-dialog{
+	    width: 100%!important;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+

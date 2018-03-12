@@ -1,0 +1,70 @@
+/* Coloque aqui seu codigo CSS */
+[appcode=calendar] .fc-toolbar { display: none; }
+
+[appcode=calendar] .fc-row.fc-widget-header table thead th {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subtitleCalendar {
+  color: white !important;
+  font-size: 23px !important;
+}
+.panelWrapper{
+  margin-bottom: 0px !important;
+  border: 0px !important;
+}
+.iconColor {
+  color: #58595b !important;
+}
+
+.iconPlus {
+  color: #58595b !important;
+  background-color: white !important;
+  border-color: #58595b !important;
+}
+
+.calendario_tp{
+	margin-bottom: 10px !important;
+	
+}
+
+
+
+
+.tp-header-calendar{
+	height: 50px!important;
+}
+
+.tp-title-calendario{
+	margin-top: -5px !important;
+}
+
+divCalendario{
+	margin: 0px!important;
+}
+
+.fluig-style-guide td, .fluig-style-guide th{
+	text-align: center!important;
+}
+
+#menu-botoes{
+	margin-right: 30%;
+}
+
+#footer-calendario{
+	margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+
+#botoes-calendario{
+	left: 30%;
+}
+
+.icone-topo-calendario {
+	padding: 0px 10px 0px 0px!important;
+}
+
+#calendar{
+	margin: 10px!important;
+}

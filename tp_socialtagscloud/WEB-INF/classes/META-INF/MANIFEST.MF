@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Dependencies: org.slf4j, com.fluig.api
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: ricardo.andre
+Build-Jdk: 1.7.0_25

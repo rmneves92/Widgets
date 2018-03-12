@@ -1,0 +1,38 @@
+.h2timeline {
+  margin-top:0px !important;
+  padding:10px 0px 10px 0px !important;
+
+}
+
+.timeline-show-more-posts {
+  margin-bottom: -1px !important;
+}
+
+.buttonTimeline {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 13px !important;
+  border-bottom-left-radius: 13px !important;
+}
+
+.btn-timeline{
+	margin-right: 10px!important;
+}
+
+.icone-topo-timeline{
+	padding: 0px 10px 0px 10px;
+}
+
+.margin-timeline{
+	margin: 10px!important;
+}
+
+.timeline-list-actions a.fluigicon{
+	color: white!important;
+}
+
+.tp_panel_footer {
+	padding: 10px 15px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}

@@ -1,0 +1,17 @@
+application.type=widget
+application.code=tp_menu_colorido
+application.title=Menu Colorido
+application.description=Menu Colorido
+application.category=Teleperformance
+application.renderer=freemarker
+developer.code=Nextus
+developer.name=Nextus
+developer.url=http://www.nextus.com.br
+application.uiwidget=true
+application.mobileapp=false
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=tp_menu_colorido
+application.resource.js.1=/resources/js/tp_menu_colorido.js
+application.resource.css.2=/resources/css/tp_menu_colorido.css
+application.tenant.code=Disal_Homolog

@@ -1,0 +1,17 @@
+application.type=widget
+application.code=tp_contador_acessos
+application.title=Contador de Acessos
+application.description=Tem a função de registrar na base de dados a quantidade de acessos em uma comunidade.
+application.category=Teleperformance
+application.renderer=freemarker
+developer.code=LAPTOP-Nextus
+developer.name=Nextus
+developer.url=http://www.nextus.com.br
+application.uiwidget=true
+application.mobileapp=false
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=tp_contador_acessos
+application.resource.js.1=/resources/js/tp_contador_acessos.js
+application.resource.css.2=/resources/css/tp_contador_acessos.css
+application.tenant.code=Disal_Homolog

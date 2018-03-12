@@ -1,0 +1,30 @@
+.contatos-border{
+	margin-top: 10px!important
+}
+
+.lblFiltra{
+	margin-top: 0px!important;
+}
+
+.iconeParcerias{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#table-parceiras select{
+	display: inline-block!important;
+}
+
+#table-parceiras .input-group{
+	margin-top: 20px;
+}
+
+#table-parceiras #datatable-area-search{
+	margin-left: 20px!important;
+}
+
+.btnLimpar{
+    margin-top: 20px!important;
+    float: right!important;
+}

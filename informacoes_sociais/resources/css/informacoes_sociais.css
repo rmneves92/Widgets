@@ -1,0 +1,385 @@
+.widget-card-user {
+		background-color:#0076A7 !important;
+		border-bottom: 1px solid #CCC!important;
+		color: white !important;
+		position: relative !important;
+}
+
+
+
+.widget-card-user .card-popover {
+	height: 150px;
+}
+
+.widget-card-user .user-identity-card {
+	float:left;
+	min-width:210px;
+	padding:10px 0 10px 10px;
+	width:64%;
+	    margin-left: 30px;
+   		margin-top: -5px;
+   		font-family: SancoaleSoftenedRegularItal;
+}
+
+.widget-card-user .user-actions-card {
+	float:right;
+	min-width:288px;
+	position:absolute;
+	right:0;
+	width:36%;
+}
+
+.widget-card-user .user-description-text {
+	margin-bottom: 6px;
+}
+
+.widget-card-user .btn-cancel-description {
+	margin-left: 6px;
+}
+
+
+.widget-card-user .user-avatar-area,
+.widget-card-user .user-infos-area,
+.widget-card-user .user-more-info-item {
+	float: left;
+}
+
+.widget-card-user .user-connections-list,
+.widget-card-user .user-relation-buttons-list {
+	float: right;
+}
+
+.widget-card-user .user-description {
+	clear: both;
+	display: block;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.widget-card-user .description {
+	display: block;
+	padding: 6px 10px 0 0;
+	width: 90%;
+	word-wrap: break-word;
+}
+
+.widget-card-user .edit-description {
+	clear: both;
+	display: none;
+	margin-top: 10px;
+}
+
+.widget-card-user .btn-edit-description {
+	font-size: 12px;
+	margin-right: 7px;
+	min-width: 10px;
+	padding: 3px;
+}
+
+/*
+* Avatar Profile
+*/
+.widget-card-user .user-avatar-area {
+	margin:10px 0 0 10px;
+	min-width: 100px;
+	position: relative;
+}
+
+.widget-card-user .user-infos-area {
+	width:inherit;
+}
+
+.widget-card-user .user-profile-data {
+	
+}
+
+.widget-card-user .user-profile-data li {
+	padding:3px 0;
+}
+.widget-card-user .user-profile-data li:last-child {
+	padding-bottom:0;
+}
+
+/*
+.widget-card-user .user-avatar-area .user-avatar {
+	border: 1px solid #D1D1D1;
+	max-width: 100%;
+}*/
+
+.user-identity-card .user-avatar {
+	border:1px solid #D1D1D1;
+	float:left;
+	max-width:100%;
+}
+
+/*
+* User Info
+*/
+.widget-card-user .user-name, .widget-card-user .user-name a, .widget-card-user .user-name a:hover,
+.widget-card-user .community-visibility-icon,
+.widget-card-user .community-administratio-icon {
+		color: white;
+		width: 205px;
+}
+
+.widget-card-user .user-name a {
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.widget-card-user .user-name a:hover {
+	text-decoration: underline;
+}
+
+
+.widget-card-user .user-name {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 8px 0 4px 0;
+		width: 230%;
+/*	word-wrap: break-word;*/
+}
+.widget-card-user .user-email,
+.widget-card-user .card-description {
+	color: #34495E;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.widget-card-user .community-visibility-icon > span,
+.widget-card-user .community-administratio-icon > span {
+	margin-right: 4px;
+}
+.widget-card-user .user-more-info-area {
+	margin: 4px 0 0;
+}
+.widget-card-user .user-more-info-area .totvs-btn-link[data-show-more-info]{
+	background: #ECF0F1;
+	color: #888;
+	font-size: 12px;
+	padding: 2px 18px 2px 6px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+.widget-card-user .user-more-info-area .totvs-btn-link[data-show-more-info]::after {
+	border-color: #888 transparent transparent transparent;
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	content: "";
+	height: 0;
+	margin: 8px 0 0 4px;
+	position: absolute;
+	width: 0;
+}
+.widget-card-user .user-more-info-list{
+	border-top: 1px dashed #CCC;
+	margin-top: -1px;
+	padding-top: 6px;
+	position: relative;
+	z-index: 1;
+}
+.widget-card-user .user-more-info-term,
+.widget-card-user .user-more-info-desc,
+.widget-card-user .link-connections,
+.widget-card-user .social-relations {
+	display: block;
+}
+.user-connections-list {
+	margin: 20px 20px 20px 0
+}
+.widget-card-user .connections-item {
+	border-left: 1px solid #D7D7D7;
+	padding-left: 10px;
+}
+.widget-card-user .connections-item:first-child{
+	border: none;
+}
+.widget-card-user .link-connections {
+	text-decoration: none;
+}
+.widget-card-user .link-connections:hover{
+	opacity: .9;
+}
+.widget-card-user .social-relations {
+	text-align: center;
+		font-family: SancoaleSoftenedRegularItal;
+}
+.widget-card-user .relations-number {
+		float: left;
+		    margin-left: -35%;
+}
+.widget-card-user .relations-label {
+		float: right;
+}
+
+/*
+* Relation Buttons
+*/
+.widget-card-user .user-relation-buttons-list {
+	clear: right;
+	margin: 0 20px 20px 0;
+}
+
+.widget-card-user .icon-small {
+	font-size: 0.65em;
+	padding: 0 7px;
+/*	right: -8px;*/
+}
+
+.widget-card-user .button-subitems {
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.widget-card-user .button-subitems .button-options {
+	text-align:right;
+}
+
+/* Card Popover */
+.widget-card-user .card-popover .container-image {
+	width: 28%;
+	padding: 10px 0 0 10px;
+	float: left;
+	height: 100px;
+}
+
+.widget-card-user .card-popover .container-info {
+	width: 72%;
+	padding: 10px 10px 0 0;
+	float: left;
+	height: 100px;
+}
+
+.widget-card-user .card-popover .container-social-connections {
+	font-size: 12px;
+	margin: 6px 0;
+	line-height: 22px;
+	color: #939393;
+}
+
+.widget-card-user .card-popover .container-more-info {
+	float: left;
+	width: 100%;
+	background: #eaeaea;
+	color: #666;
+	font-size: 12px;
+	padding: 5px 10px;
+	height: 50px;
+}
+
+.widget-card-user .card-popover .user-avatar {
+	border: 1px solid #ccc;
+}
+
+.widget-card-user .card-popover .user-name {
+	margin: 0;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+}
+
+.widget-card-user .card-popover .link-user-name {
+	text-decoration: none;
+}
+
+.widget-card-user .card-popover .user-name:hover {
+	color: #069;
+}
+
+.widget-card-user .card-popover .list-card-more-info-itens {
+	line-height: 22px;	
+}
+
+.widget-card-user .card-popover .list-description {
+	max-height: 44px;
+	overflow: hidden;
+	word-break: break-word;
+}
+
+.widget-card-user .message-can-access {
+	word-break: break-word;
+}
+
+/* Formatação do container de favoritos no popover */
+.widget-card-user .card-popover .user-identity-card {
+	min-width: inherit;
+	width: inherit;
+	padding: inherit;
+	background: #fff;
+}
+
+.widget-card-user .card-popover .user-identity-card .card-favorite {
+	min-height: 20px;
+}
+
+.widget-card-user .card-popover .user-identity-card .byyou-icon {
+	line-height: 1em;
+}
+
+.c-hidden {
+	display: none;
+}
+
+.hide-element {
+	visibility: hidden;	
+}
+
+.card-list-user-paginations {
+	text-align: right;
+	border: 1px solid #D3D3D3;
+	padding: 10px;
+	border-radius: 4px 4px 0 0;
+	background: #F5F5F5;
+}
+
+.card-list-user-paginations .btn-pagination {
+	border: none;
+	background: transparent;
+	text-indent: -9999px;
+	width: 12px;
+	height: 18px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	margin: 0 5px;
+}
+
+.card-list-user-paginations .btn-pagination:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+
+.card-list-user-paginations .btn-pagination.btn-next-page:after {
+  border-left: 12px solid #ccc;
+}
+
+.card-list-user-paginations .btn-pagination.btn-prev-page:after {
+  border-right: 12px solid #ccc;
+}
+
+.widget-card-user .char-counter {
+	color: #F00;
+	font-size: 10px;
+	text-align: right;
+}
+
+
+#gview_social-community-user-grid .ui-jqgrid-bdiv {
+	height: 195px !important;
+}
+
+.connections-item a{
+		color: white!important;
+}
+
+.btn-leave{
+	margin-top: 10px!important;
+}

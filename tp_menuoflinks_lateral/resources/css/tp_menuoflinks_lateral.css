@@ -1,0 +1,156 @@
+[class^=col-] { position: static ; }
+
+[id^=menuoflinks_].edit {
+	padding: 10px 20px;
+}
+
+.fluig-style-guide .panel-heading {
+	padding: 0px ;
+}
+
+@font-face {
+      font-family: "Sancoale Softened Medium Italic";
+      src: url("Sancoale Softened Medium Italic.ttf") format("truetype");
+
+      }
+
+.Sancoale-Softened-Medium-Italic-font{
+    font-family: "Sancoale Softened Medium Italic";
+       }
+
+[id^=menuoflinks_] div#menu_accordion .panel-heading h4 .fluigicon.fluigicon-plus {
+	font-size: 12px;
+}
+[id^=menuoflinks_] div#menu_accordion .panel-heading h4 a {
+    color: white;
+  	display: block;
+  	padding: 10px 15px;
+    font-size: 14px;
+	font-family: "Sancoale Softened Medium Italic";
+    text-decoration: none;
+}
+[id^=menuoflinks_] div#menu_accordion .panel-body {
+	padding: 0px;
+}
+[id^=menuoflinks_] div#menu_accordion .list-group {
+	margin-bottom: 0px ;
+}
+[id^=menuoflinks_] div#menu_accordion .list-group-item:first-child {
+	border-top-right-radius: 0px ;
+	border-top-left-radius: 0px ;
+}
+[id^=menuoflinks_] div#menu_accordion .list-group-item {
+	border: 0px solid #eee ;
+}
+[id^=menuoflinks_] div#menu_accordion .fluigicon.fluigicon-chevron-right {
+	font-size: 9px;
+	font-family: "Sancoale Softened Medium Italic";
+}
+
+[id^=menuoflinks_] .breadcrumb {
+	display: none;
+}
+[id^=menuoflinks_] #level2 {
+	display: none;
+}
+
+[id^=menuoflinks_] .breadcrumb li {
+	cursor: pointer;
+}
+
+[id^=menuoflinks_] a[data-parent] {
+    position: relative ;
+    padding-left: 30px ;
+}
+[id^=menuoflinks_] a[data-parent] span {
+	font-size: 14px ;
+    position: absolute ;
+    top: 30% ;
+    left: 10px ;
+}
+.navbar-nav > li {
+float: left!important;
+display: inline-block;
+}
+
+.tp-menu-navbar{
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    /*border: 1px solid transparent;*/
+}
+
+
+.firstNavStyle {
+   height: 60px !important;
+   background-color: #003d78  !important;
+ }
+
+ .firstDiv   {
+    padding-top: 5px !important;
+    width: 100% !important;
+    margin-top: -20px !important;
+ }
+
+
+
+.firstListWrapper li a:focus {
+    background-color: #003d78 !important;
+}
+
+.firstListNav{
+    border-left: 1px solid white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.firstFontStyle {
+  font-family: SancoaleSoftenedRegularItal;
+}
+
+.divMenuLinks{
+	width: auto!important;
+}
+
+
+ul.navbar-center.firstFontStyle li:first-child{
+	border-left: 0;
+}
+
+ul.navbar-left.firstFontStyle li:first-child{
+	border-left: 0;
+}
+
+.painel-personalizado {
+	height: 80px !important;
+	border-bottom: 1px solid white;
+	margin-bottom: -5px !important;
+	border-top-left-radius: 0px!important;
+	border-top-right-radius: 0px!important;
+}
+
+.painelWrapper {
+	margin-top:0 !important;
+	border-radius: 0px !important;
+}
+
+.linkPersonalizado {
+	height: 50px;
+	text-align: center;
+}
+.linkPersonalizado>a {
+	font-size: 17px !important;
+	/*font-weight: bold !important;*/
+	font-size: 25px!important;
+}
+
+.spanIcon {
+	font-size: 25px !important;
+	position: relative !important ;
+	top: 0 !important;
+	left: 0 !important;
+}
+
+#menu_accordion{
+	width: 97.7%!important;
+}

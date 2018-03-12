@@ -1,0 +1,55 @@
+/* Coloque aqui seu codigo CSS */
+
+
+.vagasList{
+	margin-top: 10px!important;
+}
+
+.media-heading, .data-publicacao{
+	margin-left: 10px !important;
+}
+
+/*.tp_alerta_border {
+ 	border: 1px solid #941310;
+    -webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius:  15px;
+	-moz-border-radius-bottomright:     15px;
+	-moz-border-radius-bottomleft:      15px;
+	border-bottom-right-radius:         15px;
+	border-bottom-left-radius:          15px;
+}*/
+
+.tp_page_header span {
+	color:            white;
+	padding-left:     10px;
+
+}
+
+.tp_list_group {
+    /*
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    */
+
+}
+	
+.tp_list_group img {
+    padding-left:     10px;
+}
+
+.btn-vagas{
+	float: right;
+	margin-right: 10px !important;
+    margin-left: 10px !important;
+}	
+
+.icone-topo-vagas{
+	padding: 0px 10px 0px 10px;
+}
+
+.vagas_min{
+	margin-right: 10px !important;
+    margin-left: 10px !important;
+    display: grid;
+}
+

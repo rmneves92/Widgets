@@ -1,0 +1,56 @@
+.liFooterTp p{
+	display: inline-block;
+}
+
+.liFooterTp a{
+    text-decoration: none!important;
+}
+
+ul.ulFooterTp a:hover {
+    color: #FFFFFF;
+}
+
+.informationFooterDiv p{
+	display: inline;
+}
+
+ul.ulFooterTp a{
+ color: #FFFFFF;
+}
+
+.containerRight{
+	padding-left: 80px!important;
+	padding-top: 30px;
+}
+
+.liFooterTp {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.navFooter {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ulFooterTp {
+    padding: 0px !important;
+    display: inline-block;
+}
+
+.footerTp {
+	color: white !important;
+	width: 100%;
+	height: 180px !important;
+  	text-decoration: none;
+}
+
+.imgFooter {
+    height: 30px;
+    width: 30px;
+}
+
+.liFooterTp>p {
+    display: inline-block;
+}	

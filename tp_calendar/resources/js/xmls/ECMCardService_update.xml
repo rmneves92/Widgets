@@ -1,0 +1,57 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dm.ecm.technology.totvs.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:updateCardData>
+         <companyId></companyId>
+         <username></username>
+         <password></password>
+         <cardId></cardId>
+         <cardData>
+           <item>
+               <field>event</field>
+               <value name="event"/>
+           </item>
+           <item>
+               <field>publicEvent</field>
+               <value name="publicEvent"/>
+           </item>
+           <item>
+               <field>description</field>
+               <value name="description"/>
+           </item>
+           <item>
+               <field>eventcolor</field>
+               <value name="eventcolor"/>
+           </item>
+           <item>
+               <field>participatingUsers</field>
+               <value name="participatingUsers"/>
+           </item>
+           <item>
+               <field>participatingGroups</field>
+               <value name="participatingGroups"/>
+           </item>                    
+           <item>
+               <field>responsable</field>
+               <value name="responsable"/>
+           </item>
+           <item>
+               <field>startDate</field>
+               <value name="startDate"/>
+           </item>
+           <item>
+               <field>startHour</field>
+               <value name="startHour"/>
+           </item>
+           <item>
+               <field>endDate</field>
+               <value name="endDate"/>
+           </item>
+           <item>
+               <field>endHour</field>
+               <value name="endHour"/>
+           </item>
+         </cardData>
+      </ws:updateCardData>
+   </soapenv:Body>
+</soapenv:Envelope>

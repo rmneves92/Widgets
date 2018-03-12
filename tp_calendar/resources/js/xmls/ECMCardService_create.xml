@@ -1,0 +1,59 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.dm.ecm.technology.totvs.com/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ws:create>
+            <companyId/>
+            <username/>
+            <password/>
+            <card>
+                <item>
+                    <cardData>
+                        <field>event</field>
+                        <value name="event"/>
+                    </cardData>
+                    <cardData>
+                        <field>publicEvent</field>
+                        <value name="publicEvent"/>
+                    </cardData>
+                    <cardData>
+                        <field>description</field>
+                        <value name="description"/>
+                    </cardData>
+                    <cardData>
+                        <field>eventcolor</field>
+                        <value name="eventcolor"/>
+                    </cardData>
+                    <cardData>
+                        <field>participatingUsers</field>
+                        <value name="participatingUsers"/>
+                    </cardData>
+                    <cardData>
+                        <field>participatingGroups</field>
+                        <value name="participatingGroups"/>
+                    </cardData>                    
+                    <cardData>
+                        <field>responsable</field>
+                        <value name="responsable"/>
+                    </cardData>
+                    <cardData>
+                        <field>startDate</field>
+                        <value name="startDate"/>
+                    </cardData>
+                    <cardData>
+                        <field>startHour</field>
+                        <value name="startHour"/>
+                    </cardData>
+                    <cardData>
+                        <field>endDate</field>
+                        <value name="endDate"/>
+                    </cardData>
+                    <cardData>
+                        <field>endHour</field>
+                        <value name="endHour"/>
+                    </cardData>
+                    <parentDocumentId/>
+                </item>
+            </card>
+        </ws:create>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,17 @@
+application.type=widget
+application.code=rodape
+application.title=Rodape
+application.description=Adiciona um rodapé na página. Pode ser customizado adicionando ícones, alterando texto, cor e link.
+application.category=Teleperformance
+application.renderer=freemarker
+developer.code=Nextus
+developer.name=Nextus
+developer.url=http://www.nextus.com.br
+application.uiwidget=true
+application.mobileapp=false
+view.file=view.ftl
+edit.file=edit.ftl
+locale.file.base.name=rodape
+application.resource.js.1=/resources/js/rodape.js
+application.resource.css.2=/resources/css/rodape.css
+application.tenant.code=Disal_Homolog

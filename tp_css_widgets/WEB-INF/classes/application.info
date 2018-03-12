@@ -1,0 +1,15 @@
+application.type=widget
+application.code=tp_css_widgets
+application.title=CSS Widgets TP
+application.description=CSS para Widgets da Teleperformance
+application.category=Teleperformance
+application.renderer=freemarker
+developer.code=Neto
+developer.name=Claudio
+developer.url=http://www.fluig.com
+application.resource.css.1=/resources/css/SancoaleSoftenedRegularItal.otf
+application.uiwidget=true
+application.mobileapp=false
+view.file=view.ftl
+edit.file=edit.ftl
+application.tenant.code=Disal_Homolog
